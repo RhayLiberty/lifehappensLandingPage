@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Banner */
+
+.banner {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.banner img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.text-overlay {
+    position: absolute;
+    text-align: center;
+    color: #fff; 
+    z-index: 2; 
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: serif;
+}
+
+.text-overlay h1 {
+    font-size: 100px; 
+}
+
+.text-overlay p {
+    font-size: 30px; 
+}
+
+/* Cart */
+#cart-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    margin: 10px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* Logo */
+
+.logo {
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.logo img {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container's width */
+}
+
+/* Main Shop Links - All Stickers & Awarness Stickers */
+
+.main-categories{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.main-categories ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.main-categories li {
+    margin: 18px;
+}
+
+.main-categories a{
+    color: #383838;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: #383838;
+}
+
+p{
+    margin:auto;
+}
+
+/* Shop Products */
+
+.shop-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.shop-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 25%;
+    
+}
+
+.product-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Awarness Stickers Bio */
+
+.purple{
+    display: flex;
+    justify-content: center;
+    color: #8066A5;
+    width: 50%;
+    margin: auto;
+    
+}
+
+hr{
+    margin: 80px;
+    height: 1px;
+    background-color: #ccc;
+    border:none;
+}
+
+/* About */
+
+.about p{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    max-width: 40%;
+    margin: auto;
+    line-height: 1.5
+}
+
+.missionstmt{
+    margin-top: 80px;
+}
+
+.missionstmt p{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    max-width: 40%;
+    margin: auto;
+    line-height: 1.5
+}
+
+/* Contact */
+
+.contact{
+    margin: auto;
+}
+
+/* footer */
+
+footer{
+    height: auto;
+    width: 100vw;
+    color: grey;
+    margin-top: 50;
+}
+
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    color: gray;
+    font-size: 30px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: auto;
+    line-height: 28px;
+    font-size: 15px;
+    color: gray;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-bottom{
+    color: #7da66d;
+    margin: 
+}
+
+
+
+
+
+
+
